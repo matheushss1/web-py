@@ -2,3 +2,8 @@ h1 {
     color: blue;
     text-align: center;
 }
+p {
+    background-color: chartreuse;
+    text-align: justify;
+    color: brown;
+}
