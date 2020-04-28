@@ -2,5 +2,7 @@ body {
     background-color: chartreuse;
     text-align: justify;
     color: brown;
+}
+div{
     width: 50%;
 }
