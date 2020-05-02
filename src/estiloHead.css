@@ -2,3 +2,7 @@ h1 {
     color: blue;
     text-align: center;
 }
+a::before{
+    content: "\21d2 Clique aqui: ";
+    font-weight: bold;
+}
