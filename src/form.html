@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formularios </title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input name="nome" type="text" placeholder="Nome">
+                <input name="senha" type="password" placeholder="Senha">
+            </div>
+            <div>
+                Qual sua cor favorita?
+                <input name="cor" type="radio" value="vermelho"> Vermelho
+                <input name="cor" type="radio" value="verde"> Verde
+                <input name="cor" type="radio" value="azul"> Azul
+                <input name="cor" type="radio" value="outro"> Outro
+            </div>
+            <div>
+                Qual frase faz mais sentido?
+                <input name="frase" list="frases"  placeholder="Frase">
+                <datalist id="frases">
+                    <option value="Tristeza faz parte"></option>
+                    <option value="Tristeza faz arte"></option>
+                    <option value="Tristeza faz código"></option>
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>
