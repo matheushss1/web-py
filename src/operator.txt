@@ -1,0 +1,7 @@
+ "a, b"  corresponde a Seleção Múltipla de Elementos
+ "a b" corresponde a Seleção de todos os descendentes, diretos e indiretos
+ "a > b" corresponde a Seleção dos descendentes diretos, o que não inclui os "Sub-descendentes"
+ "a + b"  adjascent sibiling selector 
+ "[a=b]" seleção de atibutos de um elemento.
+" a : b" corresponde às pseudo-classes dos Elementos
+" a : : b" corresponde à seleção de pseudo-elementos
